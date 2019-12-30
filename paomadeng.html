@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue文字跑马灯</title>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <input type="button" value="开始滚动" @click="gun">
+    <input type="button" value="停止滚动" @click="stop">
+    <h2>{{msg}}</h2>
+</div>
+
+</body>
+<script>
+
+    let vm = new Vue({
+        el:"#app",
+        data:{
+            msg:'vue文字跑马灯效果展示',
+        },
+        methods:{
+            gun() {
+                let _this = this;
+                this.stop();
+                this.intervalId = setInterval(() => {
+                    console.log(_this.msg);
+                    let start = _this.msg.substring(0,1);
+                    let end = _this.msg.substring(1);
+                    _this.msg = end + start;
+                },400)
+            },
+            stop() {
+                clearInterval(this.intervalId);
+            }
+        }
+    })
+
+</script>
+</html>

@@ -19,7 +19,7 @@
 		<img :src="topImgUrl" alt="" class="topImg">
 	</div>
 </div>
-<div class="navMenuList clearfix" id="navMenuList">
+<div v-cloak class="navMenuList clearfix" id="navMenuList">
 	<div class="conWidth clearfix">
 		<div class="titName f_l">{{knowledge}}</div>
 		<ul class="knowledge f_l">
@@ -41,8 +41,9 @@
 		</div>
 	</div>
 </div>
-<a :href="url" class="headlineNew conWidth">{{newTitle}}</a>
+<a class="headlineNew conWidth" :href="url"><div v-cloak>{{newTitle}}</div></a>
 <div style="height: .08rem;background-color: #C20000;margin-top:.08rem;" class="conWidth"></div>
+<!--首页新闻轮播图-->
 <div class="indexBanner">
 	<div class="swiper-container" style="height:100%;">
 		<div class="swiper-wrapper">
@@ -54,7 +55,9 @@
 	</div>
 	<div class="swiper-pagination"></div>
 </div>
-<div class="indexSec01">
+<!--首页新闻轮播图end-->
+<!--安全动态&热点推荐-->
+<div v-cloak class="indexSec01">
 	<div class="conWidth clearfix">
 		<div class="sec1 f_l">
 			<div class="title clearfix">
@@ -95,7 +98,8 @@
 	</div>
 </div>
 <!--安全动态/特别关注/热点推荐-->
-<div class="indexSec02">
+<!--安全动态&热点推荐end-->
+<div v-cloak class="indexSec02">
 	<div class="conWidth clearfix">
 		<div class="indexSec02LeftBox f_l">
 			<div class="newsList">
@@ -123,7 +127,7 @@
 	</div>
 </div>
 <!--indexSec03-->
-<div class="indexSec03 conWidth clearfix">
+<div v-cloak class="indexSec03 conWidth clearfix">
 	<div class="leftBox f_l">
 		<div class="IndexTitleStyle clearfix">
 			<span class="name f_l">{{MainTitName[0]}}</span>
@@ -144,24 +148,295 @@
 			</div>
 		</div>
 		<div class="indexSec03ListBox">
-			<a v-for="(value,key,index) in indexSec03ListBox01" :href="value.href" class="clearfix">
-				<span class="dot"></span>
+			<a v-for="(value,key,index) in indexSec03ListBox01" :href="value.href" class="item clearfix">
+				<span class="dot"></span> &nbsp
+				<span class="title">{{value.title}}</span>
+				<span class="time f_r">{{value.time}}</span>
+			</a>
+			<a :href="imgUrlBox1.href" class="imgBox">
+				<img :src="imgUrlBox1.imgSrc" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="centerBox f_l">
+		<div class="IndexTitleStyle clearfix">
+			<span class="name f_l">{{MainTitName[1]}}</span>
+			<a :href="MainTitUrl[0]" class="more f_r">更多+</a>
+			<div class="line"></div>
+		</div>
+		<div class="indexSec03ListBox">
+			<a v-for="(value,key,index) in indexSec03ListBox02" :href="value.href" class="item clearfix">
+				<span class="dot"></span> &nbsp
+				<span class="title">{{value.title}}</span>
+				<span class="time f_r">{{value.time}}</span>
+			</a>
+		</div>
+		<div class="IndexTitleStyle clearfix">
+			<span class="name f_l">{{MainTitName[2]}}</span>
+			<a :href="MainTitUrl[0]" class="more f_r">更多+</a>
+			<div class="line"></div>
+		</div>
+		<div class="indexSec03ListBox">
+			<a v-for="(value,key,index) in indexSec03ListBox03" :href="value.href" class="item clearfix">
+				<span class="dot"></span> &nbsp
 				<span class="title">{{value.title}}</span>
 				<span class="time f_r">{{value.time}}</span>
 			</a>
 		</div>
 	</div>
-	<div class="centerBox f_l">
-
-	</div>
 	<div class="rightBox f_r">
-
-
+		<div class="IndexTitleStyle clearfix">
+			<span class="name f_l">{{MainTitName[3]}}</span>
+			<span class="dayWeekMonth f_r">
+				<span class="current">日</span>
+				<span>周</span>
+				<span>月</span>
+			</span>
+			<div class="line"></div>
+		</div>
+		<div class="indexSec03BBS">
+			<a v-for="(value,key,index) in indexSec03ListBox04" :href="value.href" class="item clearfix">
+				<span class="title">{{value.title}}</span>
+				<span class="visits f_r">{{value.visits}}</span>
+			</a>
+		</div>
+		<div class="IndexTitleStyle clearfix">
+			<span class="name f_l">{{MainTitName[4]}}</span>
+			<div class="line"></div>
+		</div>
+		<div class="indexSec03Box05MenuList">
+			<a v-for="(value,key,index) in indexSec03Box05MenuList" :href="value.href" class="menuList">{{value.name}}</a>
+		</div>
 	</div>
 </div>
+<div v-cloak class="indexAdvertising conWidth">
+    <a href="javascript:;">
+        <img src="images/guanggao.png" alt="">
+    </a>
+</div>
+<!--职业卫生/管理体系/知识问答-->
+<div v-cloak class="indexSec04 conWidth">
+    <div class="leftBox">
+        <div class="IndexTitleStyle clearfix">
+            <span class="name f_l">{{leftBox.boxName}}</span>
+            <a :href="leftBox.boxHref" class="more f_r">更多+</a>
+            <div class="line"></div>
+        </div>
+        <div class="dataList">
+            <a v-for="(value,key,index) in leftBox.dataList" :href="value.href">{{value.title}}</a>
+        </div>
+    </div>
+    <div class="centerBox">
+        <div class="IndexTitleStyle clearfix">
+            <span class="name f_l">{{centerBox.boxName}}</span>
+            <a :href="centerBox.boxHref" class="more f_r">更多+</a>
+            <div class="line"></div>
+        </div>
+        <div class="dataList">
+            <a v-for="(value,key,index) in centerBox.dataList" :href="value.href">{{value.title}}</a>
+        </div>
+    </div>
+    <div class="rightBox">
+        <div class="IndexTitleStyle clearfix">
+            <span class="name f_l">{{rightBox.boxName}}</span>
+            <a href="" class="more f_r">更多+</a>
+            <div class="line"></div>
+        </div>
+        <div class="dataList">
+            <a v-for="(value,key,index) in rightBox.dataList" :href="value.href">{{value.title}}</a>
+        </div>
+    </div>
+</div>
+<!--职业卫生/管理体系/知识问答end-->
+<div class="indexAdvertising conWidth">
+    <a href="javascript:;">
+        <img src="images/guanggao02.png" alt="">
+    </a>
+</div>
+<!--安全论坛-->
+<div v-cloak class="indexSec05 conWidth">
+    <div class="leftBox">
+        <div class="indexSec05TitleBox clearfix">
+            <span class="name f_l">{{indexSec05.boxName}}</span>
+            <a :href="indexSec05.boxHref" class="more f_r">打开</a>
+            <div class="line"></div>
+        </div>
+        <div class="dataListBox">
+            <a v-for="(value,key,index) in indexSec05.dataList" :href="value.href" class="item clearfix">
+                <span class="title">{{value.title}}</span>
+                <span class="time f_r">{{value.time}}</span>
+            </a>
+        </div>
+    </div>
+    <div class="rightBox">
+        <img src="images/safeluntan.png" alt="">
+    </div>
+</div>
+<!--安全论坛end-->
+<!--培训课件/管理资料 等选项卡-->
+<div v-cloak class="indexSec06 conWidth">
+    <!--01-->
+    <div class="tableItemBox">
+        <ul class="tabList">
+            <li v-for="(value,index) in table01.tabList"
+                :class="{active:index == table01.num}"
+                @click="tab(index)">{{value}}</li>
+        </ul>
+        <div class="tabConBox">
+            <div v-for="(value,index) in table01.tabCon" v-show="index == table01.num" class="conItem">
+                <a :href="value.href" class="more">【查看更多】</a>
+                <div class="conListBox">
+                    <a v-for="(value,key,index) in value.conListBox" :href="value.href" class="clearfix">
+                        <span class="title">{{value.title}}</span>
+                        <span class="time f_r">{{value.time}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--01-->
+    <!--02-->
+    <div class="tableItemBox">
+        <ul class="tabList">
+            <li v-for="(value,index) in table02.tabList"
+                :class="{active:index == table02.num}"
+                @click="tab02(index)">{{value}}</li>
+        </ul>
+        <div class="tabConBox">
+            <div v-for="(value,index) in table02.tabCon" v-show="index == table02.num" class="conItem">
+                <a :href="value.href" class="more">【查看更多】</a>
+                <div class="conListBox">
+                    <a v-for="(value,key,index) in value.conListBox" :href="value.href" class="clearfix">
+                        <span class="title">{{value.title}}</span>
+                        <span class="time f_r">{{value.time}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--02-->
+    <!--03-->
+    <div class="tableItemBox">
+        <ul class="tabList">
+            <li v-for="(value,index) in table03.tabList"
+                :class="{active:index == table03.num}"
+                @click="tab03(index)">{{value}}</li>
+        </ul>
+        <div class="tabConBox">
+            <div v-for="(value,index) in table03.tabCon" v-show="index == table03.num" class="conItem">
+                <a :href="value.href" class="more">【查看更多】</a>
+                <div class="conListBox">
+                    <a v-for="(value,key,index) in value.conListBox" :href="value.href" class="clearfix">
+                        <span class="title">{{value.title}}</span>
+                        <span class="time f_r">{{value.time}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--03-->
+    <!--04-->
+    <div class="tableItemBox">
+        <ul class="tabList">
+            <li v-for="(value,index) in table04.tabList"
+                :class="{active:index == table04.num}"
+                @click="tab04(index)">{{value}}</li>
+        </ul>
+        <div class="tabConBox">
+            <div v-for="(value,index) in table04.tabCon" v-show="index == table04.num" class="conItem">
+                <a :href="value.href" class="more">【查看更多】</a>
+                <div class="conListBox">
+                    <a v-for="(value,key,index) in value.conListBox" :href="value.href" class="clearfix">
+                        <span class="title">{{value.title}}</span>
+                        <span class="time f_r">{{value.time}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--04-->
+</div>
+<!--培训课件/管理资料 等选项卡 end-->
+<!--安全问答/互动-->
+<div v-cloak class="indexSec07 conWidth">
+    <div class="indexAnswersLeftBox">
+        <div class="iAnswersTit">
+            <span class="title">{{BoxNmae}}</span>
+            <a :href="this.moreHref" class="more f_r">></a>
+        </div>
+        <div class="iAnswersListBox">
+            <div v-for="(value,index) in dataList" class="iAnswersListBox_item">
+                <div class="top">
+                    <span class="time">
+                        <span class="day">{{value.time_day}}</span>
+                        <span class="month">{{value.time_month}}</span>
+                    </span>
+                    <span class="questions">{{value.questions}}</span>
+                </div>
+                <div class="conBox">{{value.answer}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="indexAnswersRightBox">
+        <a href=""><img src="images/Public_opinion.png" alt=""></a>
+        <a href=""><img src="images/Complaint_reporting.png" alt=""></a>
+        <a href=""><img src="images/guanggaowei.png" alt=""></a>
+    </div>
+</div>
+<!--安全问答/互动 end-->
+<!--安全图库-->
+<div v-cloak class="indexSec08 conWidth">
+    <div class="boxName">{{boxName}}</div>
+    <div class="dataListBox">
+        <a v-for="(value,index) in dataList" :href="value.url" class="item">
+            <div class="imgBox">
+                <img :src="value.imgSrc" alt="">
+            </div>
+            <span class="title">{{value.title}}</span>
+        </a>
+    </div>
+</div>
+<!--安全图库 end-->
+<!-- Copyright -->
+<div class="indexBottomBox">
+    <div class="conWidth">
+		<div class="indexBottomLinkBox">
+			<a href="javascript:;">中子安科</a>
+			<span>|</span>
+			<a href="javascript:;">网站简介</a>
+			<span>|</span>
+			<a href="javascript:;">业务合作</a>
+			<span>|</span>
+			<a href="javascript:;">提交需求</a>
+			<span>|</span>
+			<a href="javascript:;">在线投稿</a>
+			<span>|</span>
+			<a href="javascript:;">版权声明</a>
+			<span>|</span>
+			<a href="javascript:;">友情链接</a>
+			<span>|</span>
+			<a href="javascript:;">联系我们</a>
+		</div>
+		<div class="copyRightBox">
+			本站郑重声明：所载文章、数据仅供参考，使用前请核实，风险自负。<a href="javascript:;" style="color: #333;display: inline-block;margin-left: .3rem;">网站统计 </a><br>
+			Copyright   京ICP备15000058号-1  All Rights Reserved 版权所有 复制必究
+		</div>
+	</div>
+</div>
+<!-- Copyright -->
 
 
-<div style="height: 5rem;"></div>
+
+
+
+
+
+
+
+
+
+
+<!--<div style="height: 5rem;"></div>-->
 <!--whq-->
 </body>
 </html>

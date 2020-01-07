@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/rem.js"></script>
+    <script src="../js/jq.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/list_01_safeNews.css">
+</head>
+<body>
+<div id="indexTop" class="indexTop"><div class="conWidth"><img src="../images/topImg.png" alt="" class="topImg"></div></div>
+<div id="navMenuList" class="navMenuList clearfix"><div class="conWidth clearfix"><div class="titName f_l">知识</div> <ul class="knowledge f_l"><li class="nav-li"><a href="safeList.html">安全新闻</a></li><li class="nav-li"><a href="safeList.html">安全法规</a></li><li class="nav-li"><a href="safeList.html">安全管理</a></li><li class="nav-li"><a href="safeList.html">安全技术</a></li><li class="nav-li"><a href="safeList.html">事故案例</a></li><li class="nav-li"><a href="safeList.html">操作规程</a></li><li class="nav-li"><a href="safeList.html">安全标准</a></li><li class="nav-li"><a href="safeList.html">安全教育</a></li><li class="nav-li"><a href="safeList.html">安全文化</a></li><li class="nav-li"><a href="safeList.html">应急预案</a></li><li class="nav-li"><a href="safeList.html">安全评价</a></li><li class="nav-li"><a href="safeList.html">工伤保险</a></li><li class="nav-li"><a href="safeList.html">职业卫生</a></li><li class="nav-li"><a href="safeList.html">环保|健康</a></li><li class="nav-li"><a href="safeList.html">管理体系</a></li><li class="nav-li"><a href="safeList.html">文档|论文</a></li><li class="nav-li"><a href="safeList.html">工 程 师</a></li><li class="nav-li"><a href="safeList.html">安全文艺</a></li><li class="nav-li"><a href="safeList.html">培训课件</a></li><li class="nav-li"><a href="safeList.html">管理资料</a></li><li class="nav-li"><a href="safeList.html">安全常识</a></li></ul> <div class="titName f_l">行业</div> <ul class="trade f_l"><li class="nav-li"><a href="safeList.html">煤矿</a></li><li class="nav-li"><a href="safeList.html">化工</a></li><li class="nav-li"><a href="safeList.html">建筑</a></li><li class="nav-li"><a href="safeList.html">机械</a></li><li class="nav-li"><a href="safeList.html">电力</a></li><li class="nav-li"><a href="safeList.html">冶金</a></li><li class="nav-li"><a href="safeList.html">消防</a></li><li class="nav-li"><a href="safeList.html">特种</a></li></ul> <div class="UserAndSearch f_r"><ul><li><a href="javascript:;"><img src="../images/user.png" alt=""></a></li> <li><a href="javascript:;"><img src="../images/search.png" alt=""></a></li></ul></div></div></div>
+
+<div class="linkPath conWidth">
+    <a href="../index.html">安全管理网</a>
+    <span> >>> </span>
+    <a href="javascript:;">安全新闻</a>
+</div>
+<div class="listSafeNews_sec01 conWidth">
+    <div class="leftBox">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" v-for="item in letBoxBannerData">
+                    <a :href="item.href"><img :src="item.imgUrl" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="centerBox"></div>
+    <div class="rightBox">
+
+    </div>
+</div>
+<script src="../js/index.js"></script>
+<script src="../js/list_01_safeNews.js"></script>
+<script>
+    /*
+    * swiper.js
+    * */
+    window.onload = function () {
+        let listSafeNews_sec01Banner = new Swiper('.listSafeNews_sec01 .swiper-container',{
+            pagination: {
+                el: '.indexBanner .swiper-pagination',
+                clickable :true,
+            },
+        });
+    }
+</script>
+</body>
+</html>

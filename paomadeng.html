@@ -4,21 +4,48 @@
     <meta charset="UTF-8">
     <title>vue文字跑马灯</title>
     <script src="js/vue.js"></script>
+    <script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script>
 </head>
 <body>
 <div id="app">
     <input type="button" value="开始滚动" @click="gun">
     <input type="button" value="停止滚动" @click="stop">
     <h2>{{msg}}</h2>
+    <button @click="get">获取数据</button>
+    <input type="text" v-model="name" @keyup.enter="post" title="">
+    <button @click="post">添加数据</button>
+    <ul>
+        <li v-for="item in list" :key="item.id">
+            <span>{{item.id}}</span> >>
+            <span>{{item.name}}</span> >>
+            <span>{{item.ctime}}</span>
+            <a href="" @click.prevent="del(item.id)">删除</a>
+        </li>
+    </ul>
 </div>
+
 
 </body>
 <script>
-
+    let aaa = ['111',2222];
+    function isArray(value) {
+        return value && typeof value == 'object' && value.constructor === Array;
+    }
+    if (isArray(aaa)){
+        console.log('arr');
+    }else{
+        console.log('noArr');
+    }
+    Vue.http.options.root = 'http://www.liulongbin.top:3005';
+    Vue.http.options.emulateJSON = true;
     let vm = new Vue({
         el:"#app",
         data:{
             msg:'vue文字跑马灯效果展示',
+            name:'',
+            list:[
+                {id:1,name:'baoma',ctime:new Date()},
+            ],
         },
         methods:{
             gun() {
@@ -33,9 +60,45 @@
             },
             stop() {
                 clearInterval(this.intervalId);
+            },
+            get(){
+                this.$http.get('api/getprodlist').then(result =>{
+                    if(result.body.status === 0){
+                        console.log(result.body.message);
+                        this.list = result.body.message;
+                    }else {
+                        console.log('请求失败');
+                    }
+                })
+            },
+            post(){
+                this.$http.post('api/addproduct',{name:this.name}/*,{emulateJSON:true}*/).then(result => {
+                    if(result.body.status ===0){
+                        //成功
+                        this.name = ''
+                        //刷新列表
+                        this.get()
+                    }
+                })
+            },
+            del(id){
+                this.$http.get('api/delproduct/' + id).then(result => {
+                    if(result.body.status === 0){
+                        //删除成功
+                        console.log('chenggong');
+                        this.get();
+                    }else{
+                        console.log('删除出错');
+                    }
+                })
             }
-        }
+        },
+        created(){
+            this.get()
+        },
     })
-
+//    获取接口：http://www.liulongbin.top:3005/api/getprodlist
+//    添加接口：http://www.liulongbin.top:3005/api/addproduct
+//    删除接口：this.$http.get("http://www.liulongbin.top:3005/api/delproduct/" + id).then（）
 </script>
 </html>

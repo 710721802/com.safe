@@ -1,24 +1,3 @@
-html,body,ul{padding: 0;margin: 0;  font-family: '微软雅黑', serif;outline:none;font-size: .14rem;}
-ul,li{list-style: none;}
-a{text-decoration: none;}
-[v-cloak] {
-    display: none;
-}
-a:hover{color: #C20000!important;}
-.clearfix{
-    *zoom: 1
-}
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both
-}
-.f_l{float: left;}
-.f_r{float: right;}
-.conWidth{width: 12rem;margin:0 auto;}
-
-
-
 .indexTop{width: 100%;height: 2.6rem; background: url("../images/indexTopBk.jpg") no-repeat;background-size: cover}
 .indexTop .topImg{ width: 100%;display: block; padding-top: .72rem;}
 /**/

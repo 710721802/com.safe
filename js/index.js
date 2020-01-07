@@ -1,5 +1,4 @@
-window.onload= function () {
-    var vm = new Vue({
+    let vm = new Vue({
         el:'#indexTop',
         data:{
             topImgUrl:'images/topImg.png',
@@ -40,7 +39,7 @@ window.onload= function () {
         '管理资料':'safeList.html',
         '安全常识':'safeList.html',
     }
-    var navMenuList = new Vue({
+    let navMenuList = new Vue({
         el:'#navMenuList',
         data:{
             knowledge:'知识',
@@ -850,24 +849,19 @@ window.onload= function () {
                     title:'漫画：安全措施'
                 },
             ]
+        },
+        beforeCreate(){
+            console.log('beforeCreate vue实例声明前');
+        },
+        created(){
+            console.log(this.boxName + '---已经初始化成功');
+        },
+        beforeMount(){
+            console.log('vue模板编译完成，并未渲染到页面...');
+        },
+        mounted(){
+            console.log('表示页面已经渲染...');
         }
-
     })
 
-/*
-* swiper.js
-* */
-    let indexSwiperBanner = new Swiper('.indexBanner .swiper-container',{
-        pagination: {
-            el: '.indexBanner .swiper-pagination',
-            clickable :true,
-        },
-    })
-    let indexSec03Banner = new Swiper('.indexSec03 .bannerBox',{
-        pagination: {
-            el: '.indexSec03 .indexSec03HeadBoxSwiperPagination',
-            clickable :true,
-        },
-    })
-    //
-}
+

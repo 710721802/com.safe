@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a16ad6-93c6-4b2e-a9cd-9ccd73a6140b" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/guanggao02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paomadeng.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Complaint reporting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Public opinion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/index_slices.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sekuai 11.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/list_01_safeNews.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/list_01_safeNews.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/list_01_safeNews.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/ywsfxsjt.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/ywsfxsjt.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/ywsfxsjt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/ywsfxsjt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/ywsfxsjt.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/ywsfxsjt.woff2" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/com.safe.iml" afterPath="$PROJECT_DIR$/.idea/com.safe.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paomadeng.html" afterPath="$PROJECT_DIR$/paomadeng.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,16 +37,18 @@
     <favorites_list name="com.safe" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5876642">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-131">
-                  <caret line="396" column="10" lean-forward="true" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
+                <state relative-caret-position="347">
+                  <caret line="433" column="8" lean-forward="true" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="8" />
                   <folding>
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -50,17 +58,29 @@
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="paomadeng.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="list_01_safeNews.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/list_01_safeNews.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="413">
+                  <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="paomadeng.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/paomadeng.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="698">
-                  <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+                <state relative-caret-position="513">
+                  <caret line="66" column="55" lean-forward="true" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -70,254 +90,46 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/index.css">
+          <file leaf-file-name="list_01_safeNews.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/list_01_safeNews.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2764">
-                  <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="list_01_safeNews.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/list_01_safeNews.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="456">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="813" column="7" lean-forward="false" selection-start-line="813" selection-start-column="4" selection-end-line="813" selection-end-column="7" />
+                <state relative-caret-position="304">
+                  <caret line="865" column="0" lean-forward="true" selection-start-line="865" selection-start-column="0" selection-end-line="865" selection-end-column="0" />
                   <folding>
-                    <marker date="1577440132602" expanded="true" signature="27:30180" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="50:149" ph="{&quot;el&quot;: '##indexTop'...}" />
-                    <marker date="1577440132602" expanded="true" signature="89:143" ph="{&quot;topImgUrl&quot;: 'images/topImg.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="175:452" ph="{&quot;煤矿&quot;: 'safeList.html'...}" />
-                    <marker date="1577440132602" expanded="true" signature="479:1193" ph="{&quot;安全新闻&quot;: 'safeList.html'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1224:1425" ph="{&quot;el&quot;: '##navMenuList'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1266:1419" ph="{&quot;knowledge&quot;: '知识'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1457:1594" ph="{&quot;el&quot;: '.headlineNew'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1499:1588" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1626:2303" ph="{&quot;el&quot;: '.indexBanner'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1668:2297" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="1694:2287" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="1712:1830" ph="{&quot;url&quot;: 'images/banner.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="1848:1983" ph="{&quot;url&quot;: 'images/banner2.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2001:2119" ph="{&quot;url&quot;: 'images/banner.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2137:2272" ph="{&quot;url&quot;: 'images/banner2.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2334:4113" ph="{&quot;el&quot;: '.indexSec01'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2375:4107" ph="{&quot;hotRecommendsUrl&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2399:2481" ph="{&quot;titName01&quot;: '安全动态'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2506:2830" ph="{&quot;imgUrl&quot;: 'images/01.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="2907:4097" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="2925:3063" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3081:3221" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3239:3374" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3375:3509" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3510:3648" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3666:3804" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3805:3943" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="3944:4082" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="4161:5708" ph="{&quot;el&quot;: '.indexSec02'...}" />
-                    <marker date="1577440132602" expanded="true" signature="4202:5702" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="4224:4866" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="4242:4395" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="4396:4547" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="4548:4698" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="4699:4851" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="4888:5379" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="4906:5020" ph="{&quot;imgUrl&quot;: 'images/indexSec01.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="5021:5135" ph="{&quot;imgUrl&quot;: 'images/indexSec02.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="5136:5250" ph="{&quot;imgUrl&quot;: 'images/indexSec03.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="5251:5365" ph="{&quot;imgUrl&quot;: 'images/indexSec04.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="5403:5692" ph="{&quot;safeHref&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="5757:13290" ph="{&quot;el&quot;: '.indexSec03'...}" />
-                    <marker date="1577440132602" expanded="true" signature="5798:13284" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="5824:5958" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="5983:6158" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="6215:6478" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="6233:6348" ph="{&quot;imgUrl&quot;: 'images/tebieBanner.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="6349:6464" ph="{&quot;imgUrl&quot;: 'images/tebieBanner.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="6508:6995" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="6526:6626" ph="{&quot;intro&quot;: '新雷预警—泰安同鑫创投'...}" />
-                    <marker date="1577440132602" expanded="true" signature="6644:6740" ph="{&quot;intro&quot;: '金融论坛开讲啦'...}" />
-                    <marker date="1577440132602" expanded="true" signature="6758:6865" ph="{&quot;intro&quot;: '程鹤麟：马英九登太平岛 两 啊啊啊啊'...}" />
-                    <marker date="1577440132602" expanded="true" signature="6883:6981" ph="{&quot;intro&quot;: '什么扳倒贪腐大臣？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7029:8445" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="7047:7186" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7187:7327" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7328:7464" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7465:7598" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7599:7738" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7739:7878" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-                    <marker date="1577440132602" expanded="true" signature="7879:8019" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8020:8156" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8157:8290" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8291:8430" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8470:8564" ph="{&quot;imgSrc&quot;: 'images/tebie.png'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8598:9740" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="8616:8755" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8756:8896" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-                    <marker date="1577440132602" expanded="true" signature="8897:9033" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9034:9167" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9168:9307" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9308:9447" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9448:9588" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9589:9725" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9774:10916" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="9792:9931" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-                    <marker date="1577440132602" expanded="true" signature="9932:10072" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10073:10209" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10210:10343" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10344:10483" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10484:10623" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10624:10764" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10765:10901" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-                    <marker date="1577440132602" expanded="true" signature="10950:12443" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="10968:11101" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11102:11231" ph="{&quot;title&quot;: '英九登的弗'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11232:11363" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11364:11498" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11499:11632" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11633:11764" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11765:11898" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-                    <marker date="1577440132602" expanded="true" signature="11899:12029" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12030:12162" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12163:12294" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12295:12428" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12481:13274" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="12499:12591" ph="{&quot;name&quot;: '安全新闻'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12609:12701" ph="{&quot;name&quot;: '安全教育'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12702:12794" ph="{&quot;name&quot;: '管理体系'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12795:12887" ph="{&quot;name&quot;: '安全法规'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12888:12980" ph="{&quot;name&quot;: '安全管理'...}" />
-                    <marker date="1577440132602" expanded="true" signature="12981:13073" ph="{&quot;name&quot;: '应急预案'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13074:13166" ph="{&quot;name&quot;: '应急预案'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13167:13259" ph="{&quot;name&quot;: '应急预案'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13321:15838" ph="{&quot;el&quot;: '.indexSec04'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13362:15832" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="13385:14180" ph="{&quot;boxName&quot;: '职业卫生'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13484:14166" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="13506:13630" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13631:13753" ph="{&quot;title&quot;: '[质疑] 接连遭恶意冒、前海理想  二哥对'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13775:13899" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-                    <marker date="1577440132602" expanded="true" signature="13900:14022" ph="{&quot;title&quot;: '[质疑] 接连遭恶意冒、前海理想  二哥对'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14023:14147" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14204:15048" ph="{&quot;boxName&quot;: '管理体系'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14303:15034" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="14325:14458" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14459:14592" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14614:14747" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14748:14881" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-                    <marker date="1577440132602" expanded="true" signature="14882:15015" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15071:15821" ph="{&quot;boxName&quot;: '知识问答'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15170:15807" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="15192:15309" ph="{&quot;title&quot;: '2019年消防宣传月主题是什么？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15310:15420" ph="{&quot;title&quot;: '应急预案一年做几次'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15442:15562" ph="{&quot;title&quot;: '安全员考试一般去哪个网站去查？怎么报考'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15563:15676" ph="{&quot;title&quot;: '危险化学品数据查询来源？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15677:15788" ph="{&quot;title&quot;: '安全员是技术岗位吗？'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15869:18262" ph="{&quot;el&quot;: '.indexSec05'...}" />
-                    <marker date="1577440132602" expanded="true" signature="15910:18256" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="15935:18246" ph="{&quot;boxName&quot;: '安全论坛'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16034:18232" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="16056:16207" ph="{&quot;title&quot;: '聘用安评环评工程师人员兼'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16229:16374" ph="{&quot;title&quot;: '管理考点汇总'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16375:16525" ph="{&quot;title&quot;: '闲置在手没用的还可以赚'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16526:16679" ph="{&quot;title&quot;: '唐山丰南4.5级地震 河北天'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16680:16831" ph="{&quot;title&quot;: '狂砸交通灯，黑衣暴徒害死'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16832:16983" ph="{&quot;title&quot;: '一渔船在厦门海域遇险翻沉'...}" />
-                    <marker date="1577440132602" expanded="true" signature="16984:17136" ph="{&quot;title&quot;: '“猪事”妥了？肉价大降21'...}" />
-                    <marker date="1577440132602" expanded="true" signature="17137:17288" ph="{&quot;title&quot;: '山东首例！电动二轮撞人后'...}" />
-                    <marker date="1577440132602" expanded="true" signature="17289:17440" ph="{&quot;title&quot;: '山东生育险并入医保倒计时'...}" />
-                    <marker date="1577440132602" expanded="true" signature="17441:17592" ph="{&quot;title&quot;: '美夏威夷一造船厂发生枪击'...}" />
-                    <marker date="1577440132602" expanded="true" signature="18293:27237" ph="{&quot;el&quot;: '.indexSec06'...}" />
-                    <marker date="1577440132602" expanded="true" signature="18334:26873" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="18356:20466" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="18422:20428" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="18444:19894" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="18526:19872" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="18556:18741" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="18742:18927" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="18928:19110" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="19111:19291" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="19292:19476" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="19477:19662" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="19663:19845" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="19895:20409" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="19977:20387" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="20007:20183" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="20184:20360" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="20488:22598" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="20554:22560" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="20576:22026" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="20658:22004" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="20688:20873" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="20874:21059" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="21060:21242" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="21243:21423" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="21424:21608" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="21609:21794" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="21795:21977" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="22027:22541" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="22109:22519" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="22139:22315" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="22316:22492" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="22620:24730" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="22686:24692" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="22708:24158" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="22790:24136" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="22820:23005" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="23006:23191" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="23192:23374" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="23375:23555" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="23556:23740" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="23741:23926" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="23927:24109" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="24159:24673" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="24241:24651" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="24271:24447" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="24448:24624" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="24752:26862" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="24818:26824" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="24840:26290" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="24922:26268" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="24952:25137" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="25138:25323" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="25324:25506" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="25507:25687" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="25688:25872" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="25873:26058" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="26059:26241" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="26291:26805" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="26373:26783" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="26403:26579" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="26580:26756" ph="{&quot;href&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="26891:27231" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="26915:26972" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="26998:27055" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="27081:27138" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="27164:27221" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="27268:28407" ph="{&quot;el&quot;: '.indexSec07'...}" />
-                    <marker date="1577440132602" expanded="true" signature="27310:28401" ph="{&quot;moreHref&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="27397:28391" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="27415:27662" ph="{&quot;time_day&quot;: '17'...}" />
-                    <marker date="1577440132602" expanded="true" signature="27663:27885" ph="{&quot;time_day&quot;: '8'...}" />
-                    <marker date="1577440132602" expanded="true" signature="27886:28131" ph="{&quot;time_day&quot;: '12'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28132:28376" ph="{&quot;time_day&quot;: '13'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28438:29755" ph="{&quot;el&quot;: '.indexSec08'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28479:29748" ph="{&quot;boxName&quot;: '安全图库'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28530:29738" ph="[...]" />
-                    <marker date="1577440132602" expanded="true" signature="28548:28694" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28695:28841" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28842:28988" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="28989:29135" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="29136:29282" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="29283:29429" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="29430:29576" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="29577:29723" ph="{&quot;url&quot;: 'javascript:;'...}" />
-                    <marker date="1577440132602" expanded="true" signature="29758:29777" ph="/*...*/" />
-                    <marker date="1577440132602" expanded="true" signature="29850:29970" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="29872:29963" ph="{&quot;el&quot;: '.indexBanner .swiper-pagination'...}" />
-                    <marker date="1577440132602" expanded="true" signature="30035:30170" ph="{...}" />
-                    <marker date="1577440132602" expanded="true" signature="30057:30163" ph="{&quot;el&quot;: '.indexSec03 .indexSec03HeadBoxSwiperPagination'...}" />
+                    <element signature="e#21#120#0" expanded="false" />
+                    <element signature="e#146#423#0" expanded="false" />
+                    <element signature="e#450#1164#0" expanded="false" />
+                    <element signature="e#1195#1396#0" expanded="false" />
+                    <element signature="e#1428#1565#0" expanded="false" />
+                    <element signature="e#1597#2274#0" expanded="false" />
+                    <element signature="e#2305#4084#0" expanded="false" />
+                    <element signature="e#4132#5679#0" expanded="false" />
+                    <element signature="e#5728#13261#0" expanded="false" />
+                    <element signature="e#13292#15809#0" expanded="false" />
+                    <element signature="e#15840#18233#0" expanded="false" />
+                    <element signature="e#18264#27208#0" expanded="false" />
+                    <element signature="e#27239#28378#0" expanded="false" />
+                    <element signature="e#28409#30047#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -332,6 +144,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -348,6 +161,12 @@
       <find>table01</find>
       <find>overflow</find>
       <find>v-cloak</find>
+      <find>search</find>
+      <find>keywords</find>
+      <find>app</find>
+      <find>navMenuList</find>
+      <find>images</find>
+      <find>index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -360,10 +179,21 @@
         <option value="$PROJECT_DIR$/js/index.ts" />
         <option value="$PROJECT_DIR$/js/rem.js" />
         <option value="$PROJECT_DIR$/js/swiper.min.js" />
-        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/js/list_01_safeNews.html" />
+        <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/css/public.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/list_01_safeNews.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/demoListStudy.html" />
+        <option value="$PROJECT_DIR$/js/index0.js" />
+        <option value="$PROJECT_DIR$/js/nav.js" />
         <option value="$PROJECT_DIR$/paomadeng.html" />
+        <option value="$PROJECT_DIR$/css/list_01_safeNews.css" />
+        <option value="$PROJECT_DIR$/js/list_01_safeNews.js" />
+        <option value="$PROJECT_DIR$/src/list_01_safeNews.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -381,10 +211,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2365" />
-    <option name="y" value="74" />
-    <option name="width" value="1186" />
-    <option name="height" value="821" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -402,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,11 +250,15 @@
               <item name="com.safe" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com.safe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.safe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -432,12 +267,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\whq\ruanjian\apache-tomcat-9.0.5\webapps\00xiangmu\com.safe\src" />
+      <recent name="D:\whq\ruanjian\apache-tomcat-9.0.5\webapps\00xiangmu\com.safe" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -451,23 +292,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.paomadeng.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="02.品牌列表案例2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com.safe/设计图/day2/代码/code/02.品牌列表案例2.html" />
+    <configuration name="demoListStudy.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com.safe/src/demoListStudy.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com.safe/index.html" />
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/js" />
+    <configuration name="list_01_safeNews.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com.safe/src/list_01_safeNews.html" />
     <configuration name="paomadeng.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com.safe/paomadeng.html" />
-    <configuration name="swiper.min.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="swiper.min.js" working-dir="$PROJECT_DIR$/js" />
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.swiper.min.js" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.paomadeng.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.paomadeng.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.02.品牌列表案例2.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.demoListStudy.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.list_01_safeNews.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.paomadeng.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.swiper.min.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.list_01_safeNews.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.paomadeng.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.02.品牌列表案例2.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.demoListStudy.html" />
       </list>
     </recent_temporary>
   </component>
@@ -487,23 +331,27 @@
       <workItem from="1576458602178" duration="30480000" />
       <workItem from="1576564495271" duration="50215000" />
       <workItem from="1577063664681" duration="67747000" />
-      <workItem from="1577667293759" duration="14621000" />
+      <workItem from="1577667293759" duration="27000000" />
+      <workItem from="1577928035384" duration="17855000" />
+      <workItem from="1578029746595" duration="8300000" />
+      <workItem from="1578287405173" duration="10112000" />
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163063000" />
+    <option name="totallyTimeSpent" value="211709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-2" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084826134" sideWeight="0.4961915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15700738" sideWeight="0.4961915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06663113" sideWeight="0.5038085" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -535,10 +383,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="7486">
+          <caret line="394" column="57" lean-forward="false" selection-start-line="394" selection-start-column="52" selection-end-line="394" selection-end-column="57" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -548,6 +398,206 @@
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list_01_safeNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paomadeng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/list_01_safeNews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/list_01_safeNews.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16226">
+          <caret line="854" column="46" lean-forward="false" selection-start-line="854" selection-start-column="38" selection-end-line="854" selection-end-column="46" />
+          <folding>
+            <element signature="e#21#120#0" expanded="false" />
+            <element signature="e#146#423#0" expanded="false" />
+            <element signature="e#450#1164#0" expanded="false" />
+            <element signature="e#1195#1396#0" expanded="false" />
+            <element signature="e#1428#1565#0" expanded="false" />
+            <element signature="e#1597#2274#0" expanded="false" />
+            <element signature="e#2305#4084#0" expanded="false" />
+            <element signature="e#4132#5679#0" expanded="false" />
+            <element signature="e#5728#13261#0" expanded="false" />
+            <element signature="e#13292#15809#0" expanded="false" />
+            <element signature="e#15840#18233#0" expanded="false" />
+            <element signature="e#18264#27208#0" expanded="false" />
+            <element signature="e#27239#28378#0" expanded="false" />
+            <element signature="e#28409#30047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paomadeng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/list_01_safeNews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/list_01_safeNews.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16359">
+          <caret line="861" column="10" lean-forward="false" selection-start-line="861" selection-start-column="10" selection-end-line="861" selection-end-column="10" />
+          <folding>
+            <element signature="e#21#120#0" expanded="false" />
+            <element signature="e#146#423#0" expanded="false" />
+            <element signature="e#450#1164#0" expanded="false" />
+            <element signature="e#1195#1396#0" expanded="false" />
+            <element signature="e#1428#1565#0" expanded="false" />
+            <element signature="e#1597#2274#0" expanded="false" />
+            <element signature="e#2305#4084#0" expanded="false" />
+            <element signature="e#4132#5679#0" expanded="false" />
+            <element signature="e#5728#13261#0" expanded="false" />
+            <element signature="e#13292#15809#0" expanded="false" />
+            <element signature="e#15840#18233#0" expanded="false" />
+            <element signature="e#18264#27208#0" expanded="false" />
+            <element signature="e#27239#28378#0" expanded="false" />
+            <element signature="e#28409#30047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list_01_safeNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demoListStudy.html" />
+    <entry file="file://$PROJECT_DIR$/paomadeng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计图/day2/代码/code/02.品牌列表案例2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3971">
+          <caret line="209" column="44" lean-forward="false" selection-start-line="209" selection-start-column="36" selection-end-line="209" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -558,7 +608,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -568,6 +620,8 @@
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -578,7 +632,9 @@
         <state relative-caret-position="969">
           <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -588,6 +644,8 @@
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -604,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,238 +670,20 @@
         <state relative-caret-position="1216">
           <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="23" />
           <folding>
-            <marker date="1577440132602" expanded="true" signature="27:30180" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="50:149" ph="{&quot;el&quot;: '##indexTop'...}" />
-            <marker date="1577440132602" expanded="true" signature="89:143" ph="{&quot;topImgUrl&quot;: 'images/topImg.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="175:452" ph="{&quot;煤矿&quot;: 'safeList.html'...}" />
-            <marker date="1577440132602" expanded="true" signature="479:1193" ph="{&quot;安全新闻&quot;: 'safeList.html'...}" />
-            <marker date="1577440132602" expanded="true" signature="1224:1425" ph="{&quot;el&quot;: '##navMenuList'...}" />
-            <marker date="1577440132602" expanded="true" signature="1266:1419" ph="{&quot;knowledge&quot;: '知识'...}" />
-            <marker date="1577440132602" expanded="true" signature="1457:1594" ph="{&quot;el&quot;: '.headlineNew'...}" />
-            <marker date="1577440132602" expanded="true" signature="1499:1588" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="1626:2303" ph="{&quot;el&quot;: '.indexBanner'...}" />
-            <marker date="1577440132602" expanded="true" signature="1668:2297" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="1694:2287" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="1712:1830" ph="{&quot;url&quot;: 'images/banner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="1848:1983" ph="{&quot;url&quot;: 'images/banner2.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2001:2119" ph="{&quot;url&quot;: 'images/banner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2137:2272" ph="{&quot;url&quot;: 'images/banner2.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2334:4113" ph="{&quot;el&quot;: '.indexSec01'...}" />
-            <marker date="1577440132602" expanded="true" signature="2375:4107" ph="{&quot;hotRecommendsUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="2399:2481" ph="{&quot;titName01&quot;: '安全动态'...}" />
-            <marker date="1577440132602" expanded="true" signature="2506:2830" ph="{&quot;imgUrl&quot;: 'images/01.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2907:4097" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="2925:3063" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3081:3221" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3239:3374" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3375:3509" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3510:3648" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3666:3804" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3805:3943" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3944:4082" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4161:5708" ph="{&quot;el&quot;: '.indexSec02'...}" />
-            <marker date="1577440132602" expanded="true" signature="4202:5702" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="4224:4866" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="4242:4395" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4396:4547" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4548:4698" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4699:4851" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4888:5379" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="4906:5020" ph="{&quot;imgUrl&quot;: 'images/indexSec01.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5021:5135" ph="{&quot;imgUrl&quot;: 'images/indexSec02.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5136:5250" ph="{&quot;imgUrl&quot;: 'images/indexSec03.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5251:5365" ph="{&quot;imgUrl&quot;: 'images/indexSec04.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5403:5692" ph="{&quot;safeHref&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="5757:13290" ph="{&quot;el&quot;: '.indexSec03'...}" />
-            <marker date="1577440132602" expanded="true" signature="5798:13284" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="5824:5958" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="5983:6158" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="6215:6478" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="6233:6348" ph="{&quot;imgUrl&quot;: 'images/tebieBanner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="6349:6464" ph="{&quot;imgUrl&quot;: 'images/tebieBanner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="6508:6995" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="6526:6626" ph="{&quot;intro&quot;: '新雷预警—泰安同鑫创投'...}" />
-            <marker date="1577440132602" expanded="true" signature="6644:6740" ph="{&quot;intro&quot;: '金融论坛开讲啦'...}" />
-            <marker date="1577440132602" expanded="true" signature="6758:6865" ph="{&quot;intro&quot;: '程鹤麟：马英九登太平岛 两 啊啊啊啊'...}" />
-            <marker date="1577440132602" expanded="true" signature="6883:6981" ph="{&quot;intro&quot;: '什么扳倒贪腐大臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="7029:8445" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="7047:7186" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="7187:7327" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="7328:7464" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="7465:7598" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="7599:7738" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="7739:7878" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="7879:8019" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="8020:8156" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="8157:8290" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="8291:8430" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="8470:8564" ph="{&quot;imgSrc&quot;: 'images/tebie.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="8598:9740" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="8616:8755" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="8756:8896" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="8897:9033" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="9034:9167" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="9168:9307" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="9308:9447" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="9448:9588" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="9589:9725" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="9774:10916" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="9792:9931" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="9932:10072" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="10073:10209" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="10210:10343" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="10344:10483" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="10484:10623" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="10624:10764" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="10765:10901" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="10950:12443" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="10968:11101" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-            <marker date="1577440132602" expanded="true" signature="11102:11231" ph="{&quot;title&quot;: '英九登的弗'...}" />
-            <marker date="1577440132602" expanded="true" signature="11232:11363" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="11364:11498" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-            <marker date="1577440132602" expanded="true" signature="11499:11632" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-            <marker date="1577440132602" expanded="true" signature="11633:11764" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="11765:11898" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-            <marker date="1577440132602" expanded="true" signature="11899:12029" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="12030:12162" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-            <marker date="1577440132602" expanded="true" signature="12163:12294" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="12295:12428" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-            <marker date="1577440132602" expanded="true" signature="12481:13274" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="12499:12591" ph="{&quot;name&quot;: '安全新闻'...}" />
-            <marker date="1577440132602" expanded="true" signature="12609:12701" ph="{&quot;name&quot;: '安全教育'...}" />
-            <marker date="1577440132602" expanded="true" signature="12702:12794" ph="{&quot;name&quot;: '管理体系'...}" />
-            <marker date="1577440132602" expanded="true" signature="12795:12887" ph="{&quot;name&quot;: '安全法规'...}" />
-            <marker date="1577440132602" expanded="true" signature="12888:12980" ph="{&quot;name&quot;: '安全管理'...}" />
-            <marker date="1577440132602" expanded="true" signature="12981:13073" ph="{&quot;name&quot;: '应急预案'...}" />
-            <marker date="1577440132602" expanded="true" signature="13074:13166" ph="{&quot;name&quot;: '应急预案'...}" />
-            <marker date="1577440132602" expanded="true" signature="13167:13259" ph="{&quot;name&quot;: '应急预案'...}" />
-            <marker date="1577440132602" expanded="true" signature="13321:15838" ph="{&quot;el&quot;: '.indexSec04'...}" />
-            <marker date="1577440132602" expanded="true" signature="13362:15832" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="13385:14180" ph="{&quot;boxName&quot;: '职业卫生'...}" />
-            <marker date="1577440132602" expanded="true" signature="13484:14166" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="13506:13630" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-            <marker date="1577440132602" expanded="true" signature="13631:13753" ph="{&quot;title&quot;: '[质疑] 接连遭恶意冒、前海理想  二哥对'...}" />
-            <marker date="1577440132602" expanded="true" signature="13775:13899" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-            <marker date="1577440132602" expanded="true" signature="13900:14022" ph="{&quot;title&quot;: '[质疑] 接连遭恶意冒、前海理想  二哥对'...}" />
-            <marker date="1577440132602" expanded="true" signature="14023:14147" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-            <marker date="1577440132602" expanded="true" signature="14204:15048" ph="{&quot;boxName&quot;: '管理体系'...}" />
-            <marker date="1577440132602" expanded="true" signature="14303:15034" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="14325:14458" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14459:14592" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14614:14747" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14748:14881" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14882:15015" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="15071:15821" ph="{&quot;boxName&quot;: '知识问答'...}" />
-            <marker date="1577440132602" expanded="true" signature="15170:15807" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="15192:15309" ph="{&quot;title&quot;: '2019年消防宣传月主题是什么？'...}" />
-            <marker date="1577440132602" expanded="true" signature="15310:15420" ph="{&quot;title&quot;: '应急预案一年做几次'...}" />
-            <marker date="1577440132602" expanded="true" signature="15442:15562" ph="{&quot;title&quot;: '安全员考试一般去哪个网站去查？怎么报考'...}" />
-            <marker date="1577440132602" expanded="true" signature="15563:15676" ph="{&quot;title&quot;: '危险化学品数据查询来源？'...}" />
-            <marker date="1577440132602" expanded="true" signature="15677:15788" ph="{&quot;title&quot;: '安全员是技术岗位吗？'...}" />
-            <marker date="1577440132602" expanded="true" signature="15869:18262" ph="{&quot;el&quot;: '.indexSec05'...}" />
-            <marker date="1577440132602" expanded="true" signature="15910:18256" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="15935:18246" ph="{&quot;boxName&quot;: '安全论坛'...}" />
-            <marker date="1577440132602" expanded="true" signature="16034:18232" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="16056:16207" ph="{&quot;title&quot;: '聘用安评环评工程师人员兼'...}" />
-            <marker date="1577440132602" expanded="true" signature="16229:16374" ph="{&quot;title&quot;: '管理考点汇总'...}" />
-            <marker date="1577440132602" expanded="true" signature="16375:16525" ph="{&quot;title&quot;: '闲置在手没用的还可以赚'...}" />
-            <marker date="1577440132602" expanded="true" signature="16526:16679" ph="{&quot;title&quot;: '唐山丰南4.5级地震 河北天'...}" />
-            <marker date="1577440132602" expanded="true" signature="16680:16831" ph="{&quot;title&quot;: '狂砸交通灯，黑衣暴徒害死'...}" />
-            <marker date="1577440132602" expanded="true" signature="16832:16983" ph="{&quot;title&quot;: '一渔船在厦门海域遇险翻沉'...}" />
-            <marker date="1577440132602" expanded="true" signature="16984:17136" ph="{&quot;title&quot;: '“猪事”妥了？肉价大降21'...}" />
-            <marker date="1577440132602" expanded="true" signature="17137:17288" ph="{&quot;title&quot;: '山东首例！电动二轮撞人后'...}" />
-            <marker date="1577440132602" expanded="true" signature="17289:17440" ph="{&quot;title&quot;: '山东生育险并入医保倒计时'...}" />
-            <marker date="1577440132602" expanded="true" signature="17441:17592" ph="{&quot;title&quot;: '美夏威夷一造船厂发生枪击'...}" />
-            <marker date="1577440132602" expanded="true" signature="18293:27237" ph="{&quot;el&quot;: '.indexSec06'...}" />
-            <marker date="1577440132602" expanded="true" signature="18334:26873" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="18356:20466" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="18422:20428" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="18444:19894" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="18526:19872" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="18556:18741" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="18742:18927" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="18928:19110" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19111:19291" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19292:19476" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19477:19662" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19663:19845" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19895:20409" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19977:20387" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="20007:20183" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20184:20360" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20488:22598" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="20554:22560" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="20576:22026" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20658:22004" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="20688:20873" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20874:21059" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21060:21242" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21243:21423" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21424:21608" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21609:21794" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21795:21977" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22027:22541" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22109:22519" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="22139:22315" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22316:22492" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22620:24730" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="22686:24692" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="22708:24158" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22790:24136" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="22820:23005" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23006:23191" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23192:23374" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23375:23555" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23556:23740" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23741:23926" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23927:24109" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24159:24673" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24241:24651" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="24271:24447" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24448:24624" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24752:26862" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="24818:26824" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="24840:26290" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24922:26268" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="24952:25137" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25138:25323" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25324:25506" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25507:25687" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25688:25872" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25873:26058" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26059:26241" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26291:26805" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26373:26783" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="26403:26579" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26580:26756" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26891:27231" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="26915:26972" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="26998:27055" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="27081:27138" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="27164:27221" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="27268:28407" ph="{&quot;el&quot;: '.indexSec07'...}" />
-            <marker date="1577440132602" expanded="true" signature="27310:28401" ph="{&quot;moreHref&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="27397:28391" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="27415:27662" ph="{&quot;time_day&quot;: '17'...}" />
-            <marker date="1577440132602" expanded="true" signature="27663:27885" ph="{&quot;time_day&quot;: '8'...}" />
-            <marker date="1577440132602" expanded="true" signature="27886:28131" ph="{&quot;time_day&quot;: '12'...}" />
-            <marker date="1577440132602" expanded="true" signature="28132:28376" ph="{&quot;time_day&quot;: '13'...}" />
-            <marker date="1577440132602" expanded="true" signature="28438:29755" ph="{&quot;el&quot;: '.indexSec08'...}" />
-            <marker date="1577440132602" expanded="true" signature="28479:29748" ph="{&quot;boxName&quot;: '安全图库'...}" />
-            <marker date="1577440132602" expanded="true" signature="28530:29738" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="28548:28694" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="28695:28841" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="28842:28988" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="28989:29135" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29136:29282" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29283:29429" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29430:29576" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29577:29723" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29758:29777" ph="/*...*/" />
-            <marker date="1577440132602" expanded="true" signature="29850:29970" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="29872:29963" ph="{&quot;el&quot;: '.indexBanner .swiper-pagination'...}" />
-            <marker date="1577440132602" expanded="true" signature="30035:30170" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="30057:30163" ph="{&quot;el&quot;: '.indexSec03 .indexSec03HeadBoxSwiperPagination'...}" />
+            <element signature="e#21#120#0" expanded="false" />
+            <element signature="e#146#423#0" expanded="false" />
+            <element signature="e#450#1164#0" expanded="false" />
+            <element signature="e#1195#1396#0" expanded="false" />
+            <element signature="e#1428#1565#0" expanded="false" />
+            <element signature="e#1597#2274#0" expanded="false" />
+            <element signature="e#2305#4084#0" expanded="false" />
+            <element signature="e#4132#5679#0" expanded="false" />
+            <element signature="e#5728#13261#0" expanded="false" />
+            <element signature="e#13292#15809#0" expanded="false" />
+            <element signature="e#15840#18233#0" expanded="false" />
+            <element signature="e#18264#27208#0" expanded="false" />
+            <element signature="e#27239#28378#0" expanded="false" />
+            <element signature="e#28409#30047#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,261 +734,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/设计图/index.psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计图/day2/代码/code/01.品牌列表案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demoListStudy.html" />
+    <entry file="file://$PROJECT_DIR$/js/index0.js" />
+    <entry file="file://$PROJECT_DIR$/设计图/day2/代码/code/02.品牌列表案例2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2764">
-          <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+        <state relative-caret-position="118">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nav.js" />
+    <entry file="file://$PROJECT_DIR$/paomadeng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="66" column="55" lean-forward="true" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/list_01_safeNews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="813" column="7" lean-forward="false" selection-start-line="813" selection-start-column="4" selection-end-line="813" selection-end-column="7" />
+        <state relative-caret-position="304">
+          <caret line="865" column="0" lean-forward="true" selection-start-line="865" selection-start-column="0" selection-end-line="865" selection-end-column="0" />
           <folding>
-            <marker date="1577440132602" expanded="true" signature="27:30180" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="50:149" ph="{&quot;el&quot;: '##indexTop'...}" />
-            <marker date="1577440132602" expanded="true" signature="89:143" ph="{&quot;topImgUrl&quot;: 'images/topImg.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="175:452" ph="{&quot;煤矿&quot;: 'safeList.html'...}" />
-            <marker date="1577440132602" expanded="true" signature="479:1193" ph="{&quot;安全新闻&quot;: 'safeList.html'...}" />
-            <marker date="1577440132602" expanded="true" signature="1224:1425" ph="{&quot;el&quot;: '##navMenuList'...}" />
-            <marker date="1577440132602" expanded="true" signature="1266:1419" ph="{&quot;knowledge&quot;: '知识'...}" />
-            <marker date="1577440132602" expanded="true" signature="1457:1594" ph="{&quot;el&quot;: '.headlineNew'...}" />
-            <marker date="1577440132602" expanded="true" signature="1499:1588" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="1626:2303" ph="{&quot;el&quot;: '.indexBanner'...}" />
-            <marker date="1577440132602" expanded="true" signature="1668:2297" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="1694:2287" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="1712:1830" ph="{&quot;url&quot;: 'images/banner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="1848:1983" ph="{&quot;url&quot;: 'images/banner2.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2001:2119" ph="{&quot;url&quot;: 'images/banner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2137:2272" ph="{&quot;url&quot;: 'images/banner2.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2334:4113" ph="{&quot;el&quot;: '.indexSec01'...}" />
-            <marker date="1577440132602" expanded="true" signature="2375:4107" ph="{&quot;hotRecommendsUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="2399:2481" ph="{&quot;titName01&quot;: '安全动态'...}" />
-            <marker date="1577440132602" expanded="true" signature="2506:2830" ph="{&quot;imgUrl&quot;: 'images/01.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="2907:4097" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="2925:3063" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3081:3221" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3239:3374" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3375:3509" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3510:3648" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3666:3804" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3805:3943" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="3944:4082" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4161:5708" ph="{&quot;el&quot;: '.indexSec02'...}" />
-            <marker date="1577440132602" expanded="true" signature="4202:5702" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="4224:4866" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="4242:4395" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4396:4547" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4548:4698" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4699:4851" ph="{&quot;newUrl&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="4888:5379" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="4906:5020" ph="{&quot;imgUrl&quot;: 'images/indexSec01.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5021:5135" ph="{&quot;imgUrl&quot;: 'images/indexSec02.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5136:5250" ph="{&quot;imgUrl&quot;: 'images/indexSec03.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5251:5365" ph="{&quot;imgUrl&quot;: 'images/indexSec04.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="5403:5692" ph="{&quot;safeHref&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="5757:13290" ph="{&quot;el&quot;: '.indexSec03'...}" />
-            <marker date="1577440132602" expanded="true" signature="5798:13284" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="5824:5958" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="5983:6158" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="6215:6478" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="6233:6348" ph="{&quot;imgUrl&quot;: 'images/tebieBanner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="6349:6464" ph="{&quot;imgUrl&quot;: 'images/tebieBanner.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="6508:6995" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="6526:6626" ph="{&quot;intro&quot;: '新雷预警—泰安同鑫创投'...}" />
-            <marker date="1577440132602" expanded="true" signature="6644:6740" ph="{&quot;intro&quot;: '金融论坛开讲啦'...}" />
-            <marker date="1577440132602" expanded="true" signature="6758:6865" ph="{&quot;intro&quot;: '程鹤麟：马英九登太平岛 两 啊啊啊啊'...}" />
-            <marker date="1577440132602" expanded="true" signature="6883:6981" ph="{&quot;intro&quot;: '什么扳倒贪腐大臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="7029:8445" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="7047:7186" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="7187:7327" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="7328:7464" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="7465:7598" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="7599:7738" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="7739:7878" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="7879:8019" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="8020:8156" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="8157:8290" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="8291:8430" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="8470:8564" ph="{&quot;imgSrc&quot;: 'images/tebie.png'...}" />
-            <marker date="1577440132602" expanded="true" signature="8598:9740" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="8616:8755" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="8756:8896" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="8897:9033" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="9034:9167" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="9168:9307" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="9308:9447" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="9448:9588" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="9589:9725" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="9774:10916" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="9792:9931" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="9932:10072" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="10073:10209" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="10210:10343" ph="{&quot;title&quot;: '英九登的弗格森太平岛'...}" />
-            <marker date="1577440132602" expanded="true" signature="10344:10483" ph="{&quot;title&quot;: '什么扳倒贪腐大的发送到发送到臣？'...}" />
-            <marker date="1577440132602" expanded="true" signature="10484:10623" ph="{&quot;title&quot;: '为什么中国的体制改革变得那么困难'...}" />
-            <marker date="1577440132602" expanded="true" signature="10624:10764" ph="{&quot;title&quot;: '08年四万亿式的发给发给大规模经济'...}" />
-            <marker date="1577440132602" expanded="true" signature="10765:10901" ph="{&quot;title&quot;: '似懂非懂国应增加定稿对外军'...}" />
-            <marker date="1577440132602" expanded="true" signature="10950:12443" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="10968:11101" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-            <marker date="1577440132602" expanded="true" signature="11102:11231" ph="{&quot;title&quot;: '英九登的弗'...}" />
-            <marker date="1577440132602" expanded="true" signature="11232:11363" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="11364:11498" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-            <marker date="1577440132602" expanded="true" signature="11499:11632" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-            <marker date="1577440132602" expanded="true" signature="11633:11764" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="11765:11898" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-            <marker date="1577440132602" expanded="true" signature="11899:12029" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="12030:12162" ph="{&quot;title&quot;: '08年四万亿式的发给'...}" />
-            <marker date="1577440132602" expanded="true" signature="12163:12294" ph="{&quot;title&quot;: '什么扳倒贪腐大'...}" />
-            <marker date="1577440132602" expanded="true" signature="12295:12428" ph="{&quot;title&quot;: '似懂非懂国应增加定'...}" />
-            <marker date="1577440132602" expanded="true" signature="12481:13274" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="12499:12591" ph="{&quot;name&quot;: '安全新闻'...}" />
-            <marker date="1577440132602" expanded="true" signature="12609:12701" ph="{&quot;name&quot;: '安全教育'...}" />
-            <marker date="1577440132602" expanded="true" signature="12702:12794" ph="{&quot;name&quot;: '管理体系'...}" />
-            <marker date="1577440132602" expanded="true" signature="12795:12887" ph="{&quot;name&quot;: '安全法规'...}" />
-            <marker date="1577440132602" expanded="true" signature="12888:12980" ph="{&quot;name&quot;: '安全管理'...}" />
-            <marker date="1577440132602" expanded="true" signature="12981:13073" ph="{&quot;name&quot;: '应急预案'...}" />
-            <marker date="1577440132602" expanded="true" signature="13074:13166" ph="{&quot;name&quot;: '应急预案'...}" />
-            <marker date="1577440132602" expanded="true" signature="13167:13259" ph="{&quot;name&quot;: '应急预案'...}" />
-            <marker date="1577440132602" expanded="true" signature="13321:15838" ph="{&quot;el&quot;: '.indexSec04'...}" />
-            <marker date="1577440132602" expanded="true" signature="13362:15832" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="13385:14180" ph="{&quot;boxName&quot;: '职业卫生'...}" />
-            <marker date="1577440132602" expanded="true" signature="13484:14166" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="13506:13630" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-            <marker date="1577440132602" expanded="true" signature="13631:13753" ph="{&quot;title&quot;: '[质疑] 接连遭恶意冒、前海理想  二哥对'...}" />
-            <marker date="1577440132602" expanded="true" signature="13775:13899" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-            <marker date="1577440132602" expanded="true" signature="13900:14022" ph="{&quot;title&quot;: '[质疑] 接连遭恶意冒、前海理想  二哥对'...}" />
-            <marker date="1577440132602" expanded="true" signature="14023:14147" ph="{&quot;title&quot;: '接连遭恶意冒名 陆金所雇个人尺前海理想【谨明】'...}" />
-            <marker date="1577440132602" expanded="true" signature="14204:15048" ph="{&quot;boxName&quot;: '管理体系'...}" />
-            <marker date="1577440132602" expanded="true" signature="14303:15034" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="14325:14458" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14459:14592" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14614:14747" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14748:14881" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="14882:15015" ph="{&quot;title&quot;: '[山东] 2016-02-02 金融贷 山东木木金融科技有限公司'...}" />
-            <marker date="1577440132602" expanded="true" signature="15071:15821" ph="{&quot;boxName&quot;: '知识问答'...}" />
-            <marker date="1577440132602" expanded="true" signature="15170:15807" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="15192:15309" ph="{&quot;title&quot;: '2019年消防宣传月主题是什么？'...}" />
-            <marker date="1577440132602" expanded="true" signature="15310:15420" ph="{&quot;title&quot;: '应急预案一年做几次'...}" />
-            <marker date="1577440132602" expanded="true" signature="15442:15562" ph="{&quot;title&quot;: '安全员考试一般去哪个网站去查？怎么报考'...}" />
-            <marker date="1577440132602" expanded="true" signature="15563:15676" ph="{&quot;title&quot;: '危险化学品数据查询来源？'...}" />
-            <marker date="1577440132602" expanded="true" signature="15677:15788" ph="{&quot;title&quot;: '安全员是技术岗位吗？'...}" />
-            <marker date="1577440132602" expanded="true" signature="15869:18262" ph="{&quot;el&quot;: '.indexSec05'...}" />
-            <marker date="1577440132602" expanded="true" signature="15910:18256" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="15935:18246" ph="{&quot;boxName&quot;: '安全论坛'...}" />
-            <marker date="1577440132602" expanded="true" signature="16034:18232" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="16056:16207" ph="{&quot;title&quot;: '聘用安评环评工程师人员兼'...}" />
-            <marker date="1577440132602" expanded="true" signature="16229:16374" ph="{&quot;title&quot;: '管理考点汇总'...}" />
-            <marker date="1577440132602" expanded="true" signature="16375:16525" ph="{&quot;title&quot;: '闲置在手没用的还可以赚'...}" />
-            <marker date="1577440132602" expanded="true" signature="16526:16679" ph="{&quot;title&quot;: '唐山丰南4.5级地震 河北天'...}" />
-            <marker date="1577440132602" expanded="true" signature="16680:16831" ph="{&quot;title&quot;: '狂砸交通灯，黑衣暴徒害死'...}" />
-            <marker date="1577440132602" expanded="true" signature="16832:16983" ph="{&quot;title&quot;: '一渔船在厦门海域遇险翻沉'...}" />
-            <marker date="1577440132602" expanded="true" signature="16984:17136" ph="{&quot;title&quot;: '“猪事”妥了？肉价大降21'...}" />
-            <marker date="1577440132602" expanded="true" signature="17137:17288" ph="{&quot;title&quot;: '山东首例！电动二轮撞人后'...}" />
-            <marker date="1577440132602" expanded="true" signature="17289:17440" ph="{&quot;title&quot;: '山东生育险并入医保倒计时'...}" />
-            <marker date="1577440132602" expanded="true" signature="17441:17592" ph="{&quot;title&quot;: '美夏威夷一造船厂发生枪击'...}" />
-            <marker date="1577440132602" expanded="true" signature="18293:27237" ph="{&quot;el&quot;: '.indexSec06'...}" />
-            <marker date="1577440132602" expanded="true" signature="18334:26873" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="18356:20466" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="18422:20428" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="18444:19894" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="18526:19872" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="18556:18741" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="18742:18927" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="18928:19110" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19111:19291" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19292:19476" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19477:19662" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19663:19845" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19895:20409" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="19977:20387" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="20007:20183" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20184:20360" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20488:22598" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="20554:22560" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="20576:22026" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20658:22004" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="20688:20873" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="20874:21059" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21060:21242" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21243:21423" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21424:21608" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21609:21794" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="21795:21977" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22027:22541" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22109:22519" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="22139:22315" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22316:22492" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22620:24730" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="22686:24692" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="22708:24158" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="22790:24136" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="22820:23005" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23006:23191" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23192:23374" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23375:23555" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23556:23740" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23741:23926" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="23927:24109" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24159:24673" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24241:24651" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="24271:24447" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24448:24624" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24752:26862" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="24818:26824" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="24840:26290" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="24922:26268" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="24952:25137" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25138:25323" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25324:25506" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25507:25687" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25688:25872" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="25873:26058" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26059:26241" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26291:26805" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26373:26783" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="26403:26579" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26580:26756" ph="{&quot;href&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="26891:27231" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="26915:26972" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="26998:27055" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="27081:27138" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="27164:27221" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="27268:28407" ph="{&quot;el&quot;: '.indexSec07'...}" />
-            <marker date="1577440132602" expanded="true" signature="27310:28401" ph="{&quot;moreHref&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="27397:28391" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="27415:27662" ph="{&quot;time_day&quot;: '17'...}" />
-            <marker date="1577440132602" expanded="true" signature="27663:27885" ph="{&quot;time_day&quot;: '8'...}" />
-            <marker date="1577440132602" expanded="true" signature="27886:28131" ph="{&quot;time_day&quot;: '12'...}" />
-            <marker date="1577440132602" expanded="true" signature="28132:28376" ph="{&quot;time_day&quot;: '13'...}" />
-            <marker date="1577440132602" expanded="true" signature="28438:29755" ph="{&quot;el&quot;: '.indexSec08'...}" />
-            <marker date="1577440132602" expanded="true" signature="28479:29748" ph="{&quot;boxName&quot;: '安全图库'...}" />
-            <marker date="1577440132602" expanded="true" signature="28530:29738" ph="[...]" />
-            <marker date="1577440132602" expanded="true" signature="28548:28694" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="28695:28841" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="28842:28988" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="28989:29135" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29136:29282" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29283:29429" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29430:29576" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29577:29723" ph="{&quot;url&quot;: 'javascript:;'...}" />
-            <marker date="1577440132602" expanded="true" signature="29758:29777" ph="/*...*/" />
-            <marker date="1577440132602" expanded="true" signature="29850:29970" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="29872:29963" ph="{&quot;el&quot;: '.indexBanner .swiper-pagination'...}" />
-            <marker date="1577440132602" expanded="true" signature="30035:30170" ph="{...}" />
-            <marker date="1577440132602" expanded="true" signature="30057:30163" ph="{&quot;el&quot;: '.indexSec03 .indexSec03HeadBoxSwiperPagination'...}" />
+            <element signature="e#21#120#0" expanded="false" />
+            <element signature="e#146#423#0" expanded="false" />
+            <element signature="e#450#1164#0" expanded="false" />
+            <element signature="e#1195#1396#0" expanded="false" />
+            <element signature="e#1428#1565#0" expanded="false" />
+            <element signature="e#1597#2274#0" expanded="false" />
+            <element signature="e#2305#4084#0" expanded="false" />
+            <element signature="e#4132#5679#0" expanded="false" />
+            <element signature="e#5728#13261#0" expanded="false" />
+            <element signature="e#13292#15809#0" expanded="false" />
+            <element signature="e#15840#18233#0" expanded="false" />
+            <element signature="e#18264#27208#0" expanded="false" />
+            <element signature="e#27239#28378#0" expanded="false" />
+            <element signature="e#28409#30047#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/list_01_safeNews.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list_01_safeNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="396" column="10" lean-forward="true" selection-start-line="396" selection-start-column="10" selection-end-line="396" selection-end-column="10" />
+        <state relative-caret-position="347">
+          <caret line="433" column="8" lean-forward="true" selection-start-line="433" selection-start-column="8" selection-end-line="433" selection-end-column="8" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1160,16 +849,10 @@
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#12;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paomadeng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>

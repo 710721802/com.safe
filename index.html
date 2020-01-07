@@ -7,18 +7,20 @@
 	<script src="js/rem.js"></script>
 	<script src="js/jq.js"></script>
 	<script src="js/vue.js"></script>
-	<script src="js/index.js"></script>
 	<script src="js/swiper.min.js"></script>
+	<link rel="stylesheet" href="css/public.css">
 	<link rel="stylesheet" href="css/swiper.css">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 <!--whq-->
+
 <div class="indexTop" id="indexTop">
 	<div class="conWidth">
 		<img :src="topImgUrl" alt="" class="topImg">
 	</div>
 </div>
+
 <div v-cloak class="navMenuList clearfix" id="navMenuList">
 	<div class="conWidth clearfix">
 		<div class="titName f_l">{{knowledge}}</div>
@@ -41,6 +43,7 @@
 		</div>
 	</div>
 </div>
+
 <a class="headlineNew conWidth" :href="url"><div v-cloak>{{newTitle}}</div></a>
 <div style="height: .08rem;background-color: #C20000;margin-top:.08rem;" class="conWidth"></div>
 <!--首页新闻轮播图-->
@@ -425,18 +428,27 @@
 </div>
 <!-- Copyright -->
 
-
-
-
-
-
-
-
-
-
-
-
 <!--<div style="height: 5rem;"></div>-->
 <!--whq-->
+<script src="js/index.js"></script>
+<script>
+    /*
+    * swiper.js
+    * */
+    window.onload = function () {
+        let indexSwiperBanner = new Swiper('.indexBanner .swiper-container',{
+            pagination: {
+                el: '.indexBanner .swiper-pagination',
+                clickable :true,
+            },
+        })
+        let indexSec03Banner = new Swiper('.indexSec03 .bannerBox',{
+            pagination: {
+                el: '.indexSec03 .indexSec03HeadBoxSwiperPagination',
+                clickable :true,
+            },
+        })
+    }
+</script>
 </body>
 </html>

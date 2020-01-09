@@ -36,19 +36,33 @@
     <div class="rightBox">
 
     </div>
+    <mycom3></mycom3>
 </div>
-<script src="../js/index.js"></script>
+
+<template id="tmp1">
+    <ul>
+        <li>1111</li>
+        <li>1111</li>
+    </ul>
+</template>
+<script>
+    Vue.component(`mycom3`,{
+        template:'#tmp1'
+    });
+</script>
+<script src="../js/head.js"></script>
 <script src="../js/list_01_safeNews.js"></script>
 <script>
     /*
     * swiper.js
     * */
+
     window.onload = function () {
         let listSafeNews_sec01Banner = new Swiper('.listSafeNews_sec01 .swiper-container',{
-            pagination: {
-                el: '.indexBanner .swiper-pagination',
-                clickable :true,
-            },
+//            pagination: {
+//                el: '.indexBanner .swiper-pagination',
+//                clickable :true,
+//            },
         });
     }
 </script>

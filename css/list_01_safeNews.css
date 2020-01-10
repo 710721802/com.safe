@@ -1,0 +1,56 @@
+.linkPath{padding: .46rem 0 .26rem 0;font-size: .18rem;color: #535252;}
+.linkPath a{color: #535252;}
+
+.listSafeNews_sec01{display: flex;justify-content: space-between;}
+.listSafeNews_sec01 .leftBox{width: 31%;}
+.listSafeNews_sec01 .centerBox{width: 30%;}
+.listSafeNews_sec01 .centerBox .title{display: block; font-size: .2rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color: #d40202;margin-bottom: .1rem;}
+.listSafeNews_sec01 .centerBox .title span{display: inline-block;width: .16rem;height: .16rem;border-radius: 50%;background-color: #D40202;}
+.listSafeNews_sec01 .centerBox .intro{font-size: .16rem;color: #666666;line-height: 1.6em;margin-bottom: .2rem;}
+
+.comNewsListStyle{width: 31%;}
+.comNewsListStyle .top{font-size: .26rem;color: #D40202;line-height: 1em;padding-bottom: .12rem;border-bottom: .01rem solid #D40202;}
+.comNewsListStyle .top span.line{display: inline-block;width: .07rem;height: 0.27rem;background-color: #D40202;vertical-align: middle;margin-right: .08rem;}
+.comNewsListStyle .top .more{ font-size: .14rem;color: #333333;}
+.comNewsListStyle_listBox a.item{display: block; font-size: .16rem;color: #333333;line-height: 1em;margin-top: .19rem;} 
+
+.listSafeNews_sec02{display: flex;justify-content: space-between;margin-top: .4rem;}
+
+.listSafeNews_sec03{margin: .6rem auto .6rem auto;}
+.listSafeNewsTitleBox{font-size: .26rem;color: #D40202;line-height: 1em;padding-bottom: .12rem;border-bottom: .01rem solid #D40202;}
+.listSafeNewsTitleBox span.line{display: inline-block;width: .07rem;height: 0.27rem;background-color: #D40202;vertical-align: middle;margin-right: .08rem;}
+.listSafeNewsTitleBox .more{ font-size: .14rem;color: #333333;}
+.listSafeNews_sec03_listBox{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.listSafeNews_sec03_listBox .item{width: 16%;margin: .2rem 0 0 0;}
+.listSafeNews_sec03_listBox .item .imgBox{display: block;height: 1.2rem;overflow: hidden;}
+.listSafeNews_sec03_listBox .item .imgBox img{width: 100%;height: 100%;}
+.listSafeNews_sec03_listBox .item .title{display: block;color: #333333;line-height: 1em;text-align: center;margin-top: .08rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.listSafeNews_sec04{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.listSafeNews_sec04 .comNewsListStyle{margin-bottom: .4rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

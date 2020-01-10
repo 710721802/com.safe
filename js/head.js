@@ -13,16 +13,14 @@ let tradeDataList = {
     '冶金':'safeList.html',
     '消防':'safeList.html',
     '特种':'safeList.html',
-    '煤矿':'safeList.html',
 }
 let knowledgeDataList={
-    '安全新闻':'safeList.html',
+    '安全新闻':'list_01_safeNews.html',
     '安全法规':'safeList.html',
     '安全管理':'safeList.html',
     '安全技术':'safeList.html',
     '事故案例':'safeList.html',
     '操作规程':'safeList.html',
-    '安全标准':'safeList.html',
     '安全标准':'safeList.html',
     '安全教育':'safeList.html',
     '安全文化':'safeList.html',

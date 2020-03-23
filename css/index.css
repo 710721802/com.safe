@@ -154,3 +154,7 @@
 .copyRightBox{margin-top: .16rem;font-size: .14rem;line-height: 2em;}
 /*Copyright*/
 
+.pageListBox{text-align: center;font-size: .16rem;}
+.pageListBox a{color: #222;}
+.pageListBox .current{color: #C20000;}
+

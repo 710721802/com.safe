@@ -1,0 +1,64 @@
+.linkPath{padding: .46rem 0 .26rem 0;font-size: .18rem;color: #535252;}
+.linkPath a{color: #535252;}
+
+.listVideos_sec01{display: flex;justify-content: space-between;margin-bottom: .4rem;;}
+.listVideos_sec01 .leftBox{width: 52%;height: 3.6rem;overflow: hidden;}
+
+.listVideos_sec01 .rightBox{width: 46%;background: #eee;border-radius: .06rem;}
+.listVideos_sec01 .rightBox .titBox{font-size: .18rem; color: #ffffff;background-color: #C20000;border-radius: .06rem;padding: .08rem 0;text-indent: .16rem;}
+.listVideos_sec01 .rightBox .listBox{box-sizing: border-box;padding: 0 .16rem;}
+.listVideos_sec01 .rightBox .listBox a{display: block;padding: .12rem 0;font-size: .16rem;color: #222;}
+
+.listSafeNews_sec02{display: flex;justify-content: space-between;margin-top: .4rem;}
+.videoListComBox{}
+.videoListComBox .topTit{padding-bottom: .1rem;border-bottom: .02rem solid #C20000;}
+.videoListComBox .topTit .name{font-size: .24rem;color: #C20000;font-weight: bold;}
+.videoListComBox .topTit .more{margin-top: .1rem;color: #222;font-size: .16rem;}
+.videoListComBox .listBox{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.videoListComBox .listBox a.item{display: block;width: 24%;margin: .2rem 0;}
+.videoListComBox .listBox a.item .imgBox{width: 100%;height: 1.8rem;}
+.videoListComBox .listBox a.item img{width: 100%;height: 100%;}
+.videoListComBox .listBox a.item .name{font-size: .16rem;color: #222; text-align: center; overflow: hidden;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: .1rem 0;}
+
+
+/* .listVideo02LeftBox{} */
+.listVideo02{display: flex;justify-content: space-between;padding-bottom: .4rem;;}
+.listVideo02LeftBox{width: 68%;margin-right: .4rem;}
+.listVideo02RightBox{width: 32%;}
+
+.listVideo02LeftBox .topTit{font-size: .24rem;font-weight: bold;color: #c20000;border-bottom: .015rem solid #C20000;padding-bottom: .2rem;}
+.listVideo02LeftBox .listBox{display: flex;justify-content: space-between;flex-wrap: wrap;align-content: flex-start;}
+.listVideo02LeftBox .listBox a.item{display: block;width: 32%;margin: .2rem 0;}
+.listVideo02LeftBox .listBox a.item .imgBox{width: 100%;height: 1.6rem;}
+.listVideo02LeftBox .listBox a.item img{width: 100%;height: 100%;}
+.listVideo02LeftBox .listBox a.item .name{font-size: .16rem;color: #222; text-align: center; overflow: hidden;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: .1rem 0;}
+
+.listVideo02RightBox .hotNewsBox{border-radius: .06rem;background-color: #eee;margin-bottom: .3rem;}
+.listVideo02RightBox .hotNewsBox .boxName{font-size: .18rem;color: #fff;background-color: #C20000;border-radius: .06rem;line-height: 1em;box-sizing: border-box;padding: .1rem .16rem;}
+.listVideo02RightBox .hotNewsBox .listBox{background-color: #eee;box-sizing: border-box;padding: 0 .1rem;}
+.listVideo02RightBox .hotNewsBox .listBox a.item{color: #222;font-size: .14rem;display: block;padding: .1rem 0;}
+
+
+.video_showLeftBox .titName{text-align: center;font-size: .2rem;font-weight: bold;}
+.video_showLeftBox .infoBox{text-align: center;text-align: center;background-color: #eee;padding: .06rem 0;margin: .2rem 0;}
+.video_showLeftBox .infoBox span{display: inline-block;margin: 0 .06rem;}
+/* .video_showLeftBox .videoContent{} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

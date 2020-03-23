@@ -13,6 +13,7 @@ let tradeDataList = {
     '冶金':'safeList.html',
     '消防':'safeList.html',
     '特种':'safeList.html',
+    '视频':'list_videos.html',
 }
 let knowledgeDataList={
     '安全新闻':'list_01_safeNews.html',

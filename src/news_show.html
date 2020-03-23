@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>安全新闻</title>
+    <script src="../js/rem.js"></script>
+    <script src="../js/jq.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/list_01_safeNews02.css">
+</head>
+<body>
+<!-- 公用头部 -->
+<div class="indexTop" id="indexTop">
+    <div class="conWidth">
+        <a href="../index.html"><img src="../images/topImg.png " alt="" class="topImg"></a>
+    </div>
+</div>
+<div v-cloak class="navMenuList clearfix" id="navMenuList">
+	<div class="conWidth clearfix">
+		<div class="titName f_l">{{knowledge}}</div>
+		<ul class="knowledge f_l">
+			<li v-for="(link,name,index) in knowledgeDataList" class="nav-li" :class="index">
+				<a :href="link">{{ name }}</a>
+			</li>
+		</ul>
+		<div class="titName f_l">{{trade}}</div>
+		<ul class="trade f_l">
+			<li v-for="(link,name,index) in tradeDataList" class="nav-li" :class="index">
+				<a :href="link">{{ name }}</a>
+			</li>
+		</ul>
+		<div class="UserAndSearch f_r">
+			<ul>
+				<li><a href="javascript:;"><img src="../images/user.png" alt=""></a></li>
+				<li><a href="search.html"><img src="../images/search.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 公用头部end -->
+<!-- 位置导航 -->
+<div class="linkPath conWidth">
+    <a href="../index.html">安全管理网</a>
+    <span> >>> </span>
+    <a href="javascript:;">安全新闻</a>
+    <span> >>> </span>
+    <a href="list_01_safeNews02.html">特别关注</a>
+    <span> >>> </span>
+    <a href="list_01_safeNews02.html">正文</a>
+</div>
+<!-- 位置导航 -->
+<!-- listSafeNews_sec02 -->
+<div class="list_01_SafeNews02 conWidth">
+    <div class="list_01_SafeNews02LeftBox">
+        <div class="news_show">
+            <div class="titName">
+                安徽定远发生一起大巴车侧翻事故 造成2死2伤
+            </div>
+            <div class="infoBox">
+                <span>来源： 安徽省应急管理厅</span>
+                <span>日期： 2020-02-01</span>
+            </div>
+            <div class="contentBox">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+            </div>
+            <a href="javascript:;" class="download"><img src="../images/notoword.gif" alt=""></a>
+            <!-- bshare http://www.bshare.cn/help/installAction -->
+            <div class="bshare-custom f_r" style="display: inline-block;"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div>
+            <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+            <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+            <!-- bshare -->
+
+        </div>
+    </div>
+    <div class="list_01_SafeNews02RightBox">
+        <div class="hotNewsBox hot01">
+            <div class="boxName">
+                最新内容
+            </div>
+            <div class="listBox">
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+            </div>
+        </div>
+        <div class="hotNewsBox hot02">
+            <div class="boxName">
+                特别关注
+            </div>
+            <div class="listBox">
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+                <a href="javascript:;" class="item">
+                    杭州一施工现场在建罐体发生爆裂 共造成3人死亡
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- listSafeNews_sec02 end -->
+
+<!-- Copyright -->
+<div class="indexBottomBox">
+    <div class="conWidth">
+        <div class="indexBottomLinkBox">
+            <a href="javascript:;">中子安科</a>
+            <span>|</span>
+            <a href="javascript:;">网站简介</a>
+            <span>|</span>
+            <a href="javascript:;">业务合作</a>
+            <span>|</span>
+            <a href="javascript:;">提交需求</a>
+            <span>|</span>
+            <a href="javascript:;">在线投稿</a>
+            <span>|</span>
+            <a href="javascript:;">版权声明</a>
+            <span>|</span>
+            <a href="javascript:;">友情链接</a>
+            <span>|</span>
+            <a href="javascript:;">联系我们</a>
+        </div>
+        <div class="copyRightBox">
+            本站郑重声明：所载文章、数据仅供参考，使用前请核实，风险自负。<a href="javascript:;" style="color: #333;display: inline-block;margin-left: .3rem;">网站统计 </a><br>
+            Copyright   京ICP备15000058号-1  All Rights Reserved 版权所有 复制必究
+        </div>
+    </div>
+</div>
+<!-- Copyright -->
+<script src="../js/head.js"></script>
+</body>
+</html>

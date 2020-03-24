@@ -50,8 +50,8 @@
 </div>
 <!-- 位置导航 -->
 <!-- listSafeNews_sec01 -->
-<ul class="conWidth">
-    <li>全部</li>
+<ul class="searchSelectBtns conWidth">
+    <li class="current">全部</li>
     <li>煤矿</li>
     <li>化工</li>
     <li>建筑</li>
@@ -62,20 +62,122 @@
     <li>特种</li>
     <li>视频</li>
 </ul>
-<div class="searchSelectBox conWidth">
+<div class="searchSelectInputs conWidth">
+    <form class="search" style="display: block;">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
     <form class="search">
         <input value="">
         <button type="submit">
-            <i class="anticon anticon-search search-btn-icon"></i>搜索
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
+        </button>
+    </form>
+    <form class="search">
+        <input value="">
+        <button type="submit">
+            <i class="icon"><img src="../images/searchIcon.png" alt=""></i> 搜索
         </button>
     </form>
 </div>
-<div class="searchWarn">
-    *请在搜索框中输入您要查找的内容，如标准号、文章内容等。<br>
-    *由于安全管理网全文搜索是基于第三方技术，所以会造成部分资料存在而搜索不到。<br>
-    *这个搜索是对安全管理网主搜索的补充。
+<script>
+    $('.searchSelectBtns li').on('click',function(){
+        $('input').val('')
+        var index = $(this).index()
+        $(this).addClass('current')
+        $(this).siblings().removeClass('current')
+        $(this).parent().siblings('.searchSelectInputs').find('.search').eq(index).show()
+        $(this).parent().siblings('.searchSelectInputs').find('.search').eq(index).siblings().hide()
+    })
+</script>
+<div class="searchWarn conWidth">
+    *请在搜索框中输入您要查找的内容，如标题、简介、文章内容等。<br>
+    *由于全文搜索是基于第三方技术，所以会造成部分资料存在而搜索不到。
 </div>
-
+<div class="searchResult conWidth">
+    <div class="itemBox">
+        <a href="news_show.html" class="searchItem">
+            <h3>安徽定远发生一起大巴车侧翻事故 造成2死2伤</h3>
+            <div class="intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellu
+            </div>
+            <div class="time">
+                发布时间：<span>2020-03-24</span>
+            </div>
+        </a>
+        <a href="news_show.html" class="searchItem">
+            <h3>安徽定远发生一起大巴车侧翻事故 造成2死2伤</h3>
+            <div class="intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellu
+            </div>
+            <div class="time">
+                发布时间：<span>2020-03-24</span>
+            </div>
+        </a>
+        <a href="news_show.html" class="searchItem">
+            <h3>安徽定远发生一起大巴车侧翻事故 造成2死2伤</h3>
+            <div class="intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellu
+            </div>
+            <div class="time">
+                发布时间：<span>2020-03-24</span>
+            </div>
+        </a>
+    </div>
+    <div class="pageListBox">
+        <a href="javascript:;">首页</a>
+        <a href="javascript:;">上一页</a>
+        <span class="loacalPage">1<span>
+        <a href="kavascript:;">2</a>
+        <a href="kavascript:;" class="current">3</a>
+        <a href="javascript:;">下一页</a>
+        <a href="javascript:;">尾页</a>
+    </div>
+</div>
 
 <!-- Copyright -->
 <div class="indexBottomBox">
@@ -105,7 +207,6 @@
 </div>
 <!-- Copyright -->
 <script src="../js/head.js"></script>
-<script src="../js/list_01_safeNews.js"></script>
 <script>
     /*
     * swiper.js

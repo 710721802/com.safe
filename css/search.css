@@ -1,0 +1,22 @@
+.linkPath{padding: .46rem 0 .26rem 0;font-size: .18rem;color: #535252;}
+.linkPath a{color: #535252;}
+
+input,button{outline: none;}
+
+.searchSelectBtns{border-bottom: .03rem solid #C20000;}
+.searchSelectBtns li{font-size: .24rem;color: #C20000;display: inline-block;border-top-left-radius: .06rem;border-top-right-radius: .06rem;padding: .04rem .26rem;cursor: pointer;}
+.searchSelectBtns li.current{background-color: #C20000;color: #fff;}
+
+.searchSelectInputs{padding: .6rem 0 .2rem 0;text-align: center;font-size: 0;}
+.searchSelectInputs .search{display: none;}
+.searchSelectInputs input{border: .01rem solid #999;border-top-left-radius: .1rem;border-bottom-left-radius: .1rem;height: .56rem;width: 6rem;font-size: .24rem;box-sizing: border-box;padding: 0 .18rem;border-right: transparent;}
+.searchSelectInputs button{height: .56rem;width: 1.18rem;font-size: .24rem;vertical-align: top;background: #C20000;color: #fff;border: none;border-top-right-radius: .1rem;border-bottom-right-radius: .1rem;}
+
+.searchWarn{margin-bottom: .6rem;text-align: center;font-size: .16rem;color: #999;line-height: 1.8em;}
+
+.searchResult{margin-bottom: .4rem;}
+.searchResult .itemBox{margin: 0 0 .4rem 0;}
+.searchResult .searchItem{display: block;color: #222;border-bottom: .01rem solid #ccc;padding: 0rem 0 .2rem 0}
+
+.searchResult .intro{color: #666;padding-bottom: .1rem;}
+.searchResult .time{color: #999;}
